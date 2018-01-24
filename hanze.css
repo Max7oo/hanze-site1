@@ -22,12 +22,17 @@
 	background-color: #EE7F00; 
 }
 
-/*body*/
+
 body {
 	background-color: #EE7F00;
 	overflow-x: hidden;
 }
-/*header*/
+
+
+
+h1 {
+	z-index: 3;
+}
 
 .background {
 	z-index: 1;
@@ -36,46 +41,8 @@ body {
 	height: auto;
 	margin-top: -135px
 }
-.logo {
-	z-index: 3;
-	position: absolute;
-	float: left;
-	width: 16.66%;
-	margin-left: 10px;
-}
-/*nav-bar*/
-ul {
-	list-style-type: none;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-	padding: 0;
-	overflow: hidden;
-	z-index: 2;
-	position: relative;
-	font-family: "Trebuchet MS";
-	font-weight: 100;
-	font-size: 1.5vmin;
-	font-size: 2vmax;
-	background-color: rgba(43, 45, 44, 0.8);
-	margin-top: -12px;
-	width: 100%;
-}
-li {
-	float: right;
-}
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 24px 30px;
-	text-decoration: none;
-}
-li a:hover {
-	background: white;
-	color: black;
-}
 
-/*button*/
+
 .button {
 	font-family: "Trebuchet MS";
 	font-weight: 100;
@@ -87,8 +54,8 @@ li a:hover {
 	text-decoration: none;
 	border: solid 0.1em white;
 	color: white;
-	margin-top: 19%;
-	margin-left: 39.5%;
+	margin-top: 21%;
+	margin-left: 50%;
 	z-index: 3;
 }
 .button:hover {
@@ -97,10 +64,6 @@ li a:hover {
 	border: solid 0.1em black;
 }
 
-/*info*/
-.info {
-	position: relative;
-}
 
 @media screen and (max-width: 800px) {
 	/*header*/
@@ -110,46 +73,9 @@ li a:hover {
 	width: 105%;
 	margin-top: -90px;
 	}
-	.logo {
-	z-index: 3;
-	position: absolute;
-	float: left;
-	width: 30%;
-	margin-left: 10px;
-}
-/*nav-bar*/
-ul {
-	list-style-type: none;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-	padding: 0;
-	overflow: hidden;
-	z-index: 2;
-	position: relative;
-	font-family: "Trebuchet MS";
-	font-weight: 100;
-	font-size: 1.5vmin;
-	font-size: 2vmax;
-	background-color: rgba(43, 45, 44, 0.8);
-	margin-top: -12px;
-	width: 100%;
-}
-li {
-	float: right;
-}
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 24px 20px;
-	text-decoration: none;
-}
-li a:hover {
-	background: white;
-	color: black;
+
 }
 
-/*button*/
 .button {
 	font-family: "Trebuchet MS";
 	font-weight: 100;
@@ -161,8 +87,8 @@ li a:hover {
 	text-decoration: none;
 	border: solid 0.1em white;
 	color: white;
-	margin-top: 12%;
-	margin-left: 32%;
+	margin-top: 22%;
+	margin-left: 42%;
 	z-index: 3;
 }
 .button:hover {
@@ -171,11 +97,9 @@ li a:hover {
 	border: solid 0.1em black;
 }
 
-/*info*/
-.info {
-	position: relative;
 
-}
+
+
 
 @media screen and (max-width: 500px) {
 	/*header*/
@@ -185,46 +109,9 @@ li a:hover {
 	width: 105%;
 	margin-top: -90px;
 	}
-	.logo {
-	z-index: 3;
-	position: absolute;
-	float: left;
-	width: 30%;
-	margin-left: 10px;
-}
-/*nav-bar*/
-ul {
-	list-style-type: none;
-	margin-bottom: 0.5em;
-	margin-top: 0.5em;
-	padding: 0;
-	overflow: hidden;
-	z-index: 2;
-	position: relative;
-	font-family: "Trebuchet MS";
-	font-weight: 100;
-	font-size: 1.0vmin;
-	font-size: 2vmax;
-	background-color: rgba(43, 45, 44, 0.8);
-	margin-top: -12px;
-	width: 100%;
-}
-li {
-	float: right;
-}
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 24px 15px;
-	text-decoration: none;
-}
-li a:hover {
-	background: white;
-	color: black;
-}
 
-/*button*/
+
+
 .button {
 	font-family: "Trebuchet MS";
 	font-weight: 100;
@@ -246,8 +133,4 @@ li a:hover {
 	border: solid 0.1em black;
 }
 
-/*info*/
-.info {
-	position: relative;
 
-}
