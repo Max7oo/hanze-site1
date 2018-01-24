@@ -2,11 +2,10 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-family: arial, sans-serif;
-	background-color: #d5dfd7;
 	overflow-x: hidden;
+	background-color: #df8541;
 	
 }
-
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -19,24 +18,35 @@ body {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-}
 
-.foto{
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+}
+.grid {
+	width: 50%;
 	position: relative;
-	width: 100%;
-	height: 7xpx;
-	top: 80px;
-}
-
-#top {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	background: #eb7b23;
-	top: 0px;
-	float: top;
+	height: auto;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 10px 50px 50px 50px;
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px  rgba(38, 38, 40, 0.5);
+	margin-bottom: 30px;
 	
 }
+.foto{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	height: auto;
+	top: 80px;
+	z-index: 1;
+
+}
+
+
 
 #logo{
 	position: absolute;
@@ -47,23 +57,49 @@ body {
 
 }
 
-.container {
-	display: grid;
-	position: relative;
-	text-align: center;
-	color: white;
+
+
+#mjr1 {
+	width: 75%;
+	height: 65%;
+	display: inline-block;
+	margin-top: 100px;
+	z-index: 3;
+	padding-left: 12%
+
+}
+
+#mjr2 {
+	width: 75%;
+	height: 65%;
+	display: inline-block;
+	margin-top: 100px;
+	z-index: 3;
+	padding-left: 12%
+
+}
+
+#mjr3 {
+	width: 75%;
+	height: 65%;
+	display: inline-block;
+	margin-top: 100px;
+	z-index: 3;
+	padding-left: 12%
 
 }
 
 #cmd {
+	font-size: 200%;
+	top: 20%;
+	left:	50%;
+    transform: translate(-50%, -50%);
 	position: absolute;
 	text-align: justify;
 	white-space: pre-line;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 200%;
+    color: #eb7b23;
+    z-index: 3;
+    
 
 }
 
@@ -72,11 +108,13 @@ body {
 	background-color: #eb7b23;
     color: white;
     padding: 10px 22px;
-    text-align: center;
+    text-align: justify;
     display: inline-block;
-    margin: 4px 2px;
-    margin-left: 680px;
-    top: 420px;
+    top: 30%;
+    left: 50%;
+   	transform: translate(-50%, -50%);
+   	z-index: 3;
+    
    
     
 }
@@ -84,21 +122,110 @@ body {
 	min-height: 340px;
 }
  
- [class*="col-"] {
-    float: left;
-    padding: 15px;
-    margin-bottom: 15px;
-    height: 110px;
+
+
+
+
+
+ 	#rij1 {
+	text-align: center;
+    
+    
 
 }
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
- * {
- 	box-sizing: border-box;
+	#rij2 {
+	
+		text-align: center;
  }
+
+ #rij3 {
+	text-align: center;
+	}
+
+
+h1 {
+	font-size: 200%;
+	
+	text-align: center;
+	
+    color: black;
+}
+
+#jaar1 {
+	top: 1350px;
+	left: 350px;
+	font-size: 100%;
+	position: absolute;
+	text-align: justify;
+	color: black;
+}
+
+
+
+#najaar1 {
+	top: 1550px;
+	left: 300px;
+	font-size: 100%;
+	position: absolute;
+	text-align: justify;
+	color: black;
+	max-width: 37%;
+}
+
+
+
+#stage {
+	top: 1829px;
+	left: 300px;
+	font-size: 100%;
+	position: absolute;
+	text-align: justify;
+	color: black;
+	max-width: 37%;
+}
+
+	#p1, #p2, h2 {
+		text-align: center;
+	}
+
+
+
+	#info {
+		
+		width: 100%;
+		height: 100%;
+	}
+
+	#footer {
+    height: 140px;
+    display: inline;
+    width: 100%;
+}
+
+#footerInfo {
+    text-align: center;
+    background-color: darkorange;
+    padding-top: 30px;
+}
+
+
+#footerInfo > ul >li {
+    display: inline;
+    margin: 0 10%;
+    
+}
+
+#social {
+    background-image: url(social.png);
+    background-size: cover;
+}
+
+.logo {
+	z-index: 3;
+	position: relative;
+	float: left;
+	width: 20%;
+	margin-top: -1em;
+	height: auto;
+}
 
